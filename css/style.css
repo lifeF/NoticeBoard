@@ -1,0 +1,89 @@
+#Uni_logo{
+  width: 100px;
+  height: 100px;
+
+}
+.head_Line{
+  display: inline-flex;
+}
+.discribe{
+  height: 100px;
+  width: 450px;
+
+  text-align: center;
+  vertical-align:-20px;
+
+  right: 10px;
+  position: absolute;
+
+}
+ul{
+  list-style-type: none;
+}
+
+#dis{
+  font-size: 50px;
+  vertical-align: -60px;
+  color: grey;
+  animation-duration: 1s;
+   animation-name: blink;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+@keyframes blink {
+   from {
+      opacity: 1;
+   }
+   to {
+      opacity: 0.5;
+   }
+ }
+
+.timer{
+  height: 70px;
+  width: 300px;
+
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  vertical-align:-20px;
+  margin-left: 10px;
+  position: relative;
+
+
+
+
+}
+#timer{
+    font-size: 50px;
+    vertical-align: -40px;
+    color: grey;
+}
+
+.header{
+  display:inline-flex;
+  padding: 10px;
+  height: 100%;
+  margin-left: 10px;
+
+
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+
+  position: relative;
+
+}
+
+#header{
+  font-size: 20px;
+  top: 25px;
+  left: 10px;
+  position: relative;
+  padding: 10px;
+  color: grey;
+  /*font-family: "Times New Roman",  serif;*/
+}
+.container{
+
+}
